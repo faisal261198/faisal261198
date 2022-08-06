@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        </head>
+        <body>
+<script type="text/javascript">
+    var angka = [3,2,5,1,8,9,6];
+    console.log(angka);
+
+    var angkabaru = angka.sort(function(a,b){
+        return a - b;
+    })
+
+    console.log(angkabaru);
+
+let genap = [];
+let ganjil = [];
+
+let i = 0;
+for(i; i<angkabaru.length; i++){
+    console.log(angkabaru[i])
+    if(angkabaru[i] % 2 ==0){
+        genap.push(angkabaru[i]);
+    }else{
+        ganjil.push(angkabaru[i]);
+    }
+}
+
+console.log(ganjil.concat(genap))       
+</script>
+</body>
+</html>
