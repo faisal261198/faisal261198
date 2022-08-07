@@ -1,0 +1,207 @@
+Test Case-1
+Username: standard_user
+Password: secret_sauce
+
+Elapsed time: 26.628s
+
+2022-08-07 10:39:42.219 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2022-08-07 10:39:42.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/username_1
+2022-08-07 10:39:44.395 DEBUG testcase.username_1                      - 1: openBrowser("")
+2022-08-07 10:39:45.328 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+Aug 07, 2022 10:39:45 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2022-08-07 10:39:45.495 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 39339
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 07, 2022 10:39:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-08-07 10:39:49.385 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7dd0c8e39eebb5feced8277c74581786
+2022-08-07 10:39:49.428 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 104.0.5112.81
+2022-08-07 10:39:49.430 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2022-08-07 10:39:49.431 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-08-07 10:39:49.433 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-08-07 10:39:49.478 DEBUG testcase.username_1                      - 2: navigateToUrl("https://www.saucedemo.com/")
+2022-08-07 10:39:50.325 DEBUG testcase.username_1                      - 3: setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user")
+2022-08-07 10:39:51.405 DEBUG testcase.username_1                      - 4: setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA==")
+2022-08-07 10:39:52.244 DEBUG testcase.username_1                      - 5: click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71"))
+2022-08-07 10:39:53.035 DEBUG testcase.username_1                      - 6: click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart"))
+2022-08-07 10:39:53.551 DEBUG testcase.username_1                      - 7: click(findTestObject("Object Repository/Page_Swag Labs/a_1"))
+2022-08-07 10:39:54.065 DEBUG testcase.username_1                      - 8: click(findTestObject("Object Repository/Page_Swag Labs/button_Continue Shopping"))
+2022-08-07 10:39:54.665 DEBUG testcase.username_1                      - 9: click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1"))
+2022-08-07 10:39:55.166 DEBUG testcase.username_1                      - 10: click(findTestObject("Object Repository/Page_Swag Labs/span_2"))
+2022-08-07 10:39:55.684 DEBUG testcase.username_1                      - 11: click(findTestObject("Object Repository/Page_Swag Labs/button_Remove"))
+2022-08-07 10:39:56.194 DEBUG testcase.username_1                      - 12: click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout"))
+2022-08-07 10:39:56.752 DEBUG testcase.username_1                      - 13: click(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"))
+2022-08-07 10:39:57.318 DEBUG testcase.username_1                      - 14: click(findTestObject("Object Repository/Page_Swag Labs/button_Cancel"))
+2022-08-07 10:39:57.818 DEBUG testcase.username_1                      - 15: click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout"))
+2022-08-07 10:39:58.397 DEBUG testcase.username_1                      - 16: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "Faisal")
+2022-08-07 10:39:59.296 DEBUG testcase.username_1                      - 17: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "Ramadhan")
+2022-08-07 10:40:00.223 DEBUG testcase.username_1                      - 18: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode"), "15156")
+2022-08-07 10:40:01.062 DEBUG testcase.username_1                      - 19: click(findTestObject("Object Repository/Page_Swag Labs/input_Cancel_continue"))
+2022-08-07 10:40:01.680 DEBUG testcase.username_1                      - 20: click(findTestObject("Object Repository/Page_Swag Labs/button_Cancel"))
+2022-08-07 10:40:02.194 DEBUG testcase.username_1                      - 21: click(findTestObject("Object Repository/Page_Swag Labs/a_1"))
+2022-08-07 10:40:02.785 DEBUG testcase.username_1                      - 22: click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout"))
+2022-08-07 10:40:03.310 DEBUG testcase.username_1                      - 23: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "Faisal")
+2022-08-07 10:40:04.209 DEBUG testcase.username_1                      - 24: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "Ramadhan")
+2022-08-07 10:40:05.182 DEBUG testcase.username_1                      - 25: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode"), "15156")
+2022-08-07 10:40:06.100 DEBUG testcase.username_1                      - 26: click(findTestObject("Object Repository/Page_Swag Labs/input_Cancel_continue"))
+2022-08-07 10:40:06.725 DEBUG testcase.username_1                      - 27: click(findTestObject("Object Repository/Page_Swag Labs/button_Finish"))
+2022-08-07 10:40:07.281 DEBUG testcase.username_1                      - 28: click(findTestObject("Object Repository/Page_Swag Labs/button_Back Home"))
+2022-08-07 10:40:07.895 DEBUG testcase.username_1                      - 29: click(findTestObject("Object Repository/Page_Swag Labs/button_Open Menu"))
+2022-08-07 10:40:08.447 DEBUG testcase.username_1                      - 30: click(findTestObject("Object Repository/Page_Swag Labs/a_Logout"))
+2022-08-07 10:40:08.970 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/username_1
+
+Test Case-2
+Username: locked_out_user
+Password: secret_sauce
+
+Elapsed time: 11.820s
+
+2022-08-07 11:30:18.148 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2022-08-07 11:30:18.153 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/username_2
+2022-08-07 11:30:19.105 DEBUG testcase.username_2                      - 1: openBrowser("")
+2022-08-07 11:30:19.643 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+Aug 07, 2022 11:30:19 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2022-08-07 11:30:19.734 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 43227
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 07, 2022 11:30:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-08-07 11:30:22.337 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e9a9e3911af82c59faa33e4166f4c52f
+2022-08-07 11:30:22.360 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 104.0.5112.81
+2022-08-07 11:30:22.361 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2022-08-07 11:30:22.362 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-08-07 11:30:22.363 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-08-07 11:30:22.394 DEBUG testcase.username_2                      - 2: openBrowser("")
+2022-08-07 11:30:22.406 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2022-08-07 11:30:23.098 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+Aug 07, 2022 11:30:23 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2022-08-07 11:30:23.100 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 24125
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 07, 2022 11:30:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-08-07 11:30:24.362 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cba8e389e12ab56bbda032b4db2fe27e
+2022-08-07 11:30:24.384 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 104.0.5112.81
+2022-08-07 11:30:24.385 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2022-08-07 11:30:24.385 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-08-07 11:30:24.386 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-08-07 11:30:24.410 DEBUG testcase.username_2                      - 3: navigateToUrl("https://www.saucedemo.com/")
+2022-08-07 11:30:25.594 DEBUG testcase.username_2                      - 4: closeBrowser()
+2022-08-07 11:30:26.288 DEBUG testcase.username_2                      - 5: openBrowser("")
+2022-08-07 11:30:26.295 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+Aug 07, 2022 11:30:26 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2022-08-07 11:30:26.297 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 29542
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 07, 2022 11:30:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-08-07 11:30:27.549 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4689143005eef8679bbd3dd16a583139
+2022-08-07 11:30:27.575 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 104.0.5112.81
+2022-08-07 11:30:27.575 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2022-08-07 11:30:27.576 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-08-07 11:30:27.577 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-08-07 11:30:27.612 DEBUG testcase.username_2                      - 6: navigateToUrl("https://www.saucedemo.com/")
+2022-08-07 11:30:28.075 DEBUG testcase.username_2                      - 7: setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "locked_out_user")
+2022-08-07 11:30:28.988 DEBUG testcase.username_2                      - 8: setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA==")
+2022-08-07 11:30:29.516 DEBUG testcase.username_2                      - 9: click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71"))
+2022-08-07 11:30:30.053 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/username_2
+
+Test Case-3
+Username: problem_user
+Password: secret_sauce
+
+Elapsed time: 17.269s
+
+2022-08-07 11:36:17.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2022-08-07 11:36:17.760 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/username_3
+2022-08-07 11:36:18.711 DEBUG testcase.username_3                      - 1: openBrowser("")
+2022-08-07 11:36:19.224 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+Aug 07, 2022 11:36:19 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2022-08-07 11:36:19.316 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 10308
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 07, 2022 11:36:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-08-07 11:36:21.852 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6367d53556b384959e8ee8ae74f81559
+2022-08-07 11:36:21.878 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 104.0.5112.81
+2022-08-07 11:36:21.878 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2022-08-07 11:36:21.879 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-08-07 11:36:21.880 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-08-07 11:36:21.925 DEBUG testcase.username_3                      - 2: navigateToUrl("https://www.saucedemo.com/")
+2022-08-07 11:36:22.825 DEBUG testcase.username_3                      - 3: setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "problem_user")
+2022-08-07 11:36:23.778 DEBUG testcase.username_3                      - 4: setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA==")
+2022-08-07 11:36:24.333 DEBUG testcase.username_3                      - 5: sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), Keys.chord(ENTER))
+2022-08-07 11:36:24.855 DEBUG testcase.username_3                      - 6: click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart"))
+2022-08-07 11:36:25.378 DEBUG testcase.username_3                      - 7: click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart_1"))
+2022-08-07 11:36:25.959 DEBUG testcase.username_3                      - 8: click(findTestObject("Object Repository/Page_Swag Labs/a_2"))
+2022-08-07 11:36:26.510 DEBUG testcase.username_3                      - 9: click(findTestObject("Object Repository/Page_Swag Labs/button_Remove"))
+2022-08-07 11:36:27.056 DEBUG testcase.username_3                      - 10: click(findTestObject("Object Repository/Page_Swag Labs/button_Continue Shopping"))
+2022-08-07 11:36:27.592 DEBUG testcase.username_3                      - 11: click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart"))
+2022-08-07 11:36:28.145 DEBUG testcase.username_3                      - 12: click(findTestObject("Object Repository/Page_Swag Labs/a_2"))
+2022-08-07 11:36:28.659 DEBUG testcase.username_3                      - 13: click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout"))
+2022-08-07 11:36:29.224 DEBUG testcase.username_3                      - 14: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "Faisal")
+2022-08-07 11:36:30.078 DEBUG testcase.username_3                      - 15: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "")
+2022-08-07 11:36:30.889 DEBUG testcase.username_3                      - 16: click(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"))
+2022-08-07 11:36:31.283 DEBUG testcase.username_3                      - 17: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "Faisal")
+2022-08-07 11:36:32.003 DEBUG testcase.username_3                      - 18: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "")
+2022-08-07 11:36:32.814 DEBUG testcase.username_3                      - 19: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode"), "15156")
+2022-08-07 11:36:33.536 DEBUG testcase.username_3                      - 20: click(findTestObject("Object Repository/Page_Swag Labs/input_Cancel_continue"))
+2022-08-07 11:36:34.069 DEBUG testcase.username_3                      - 21: click(findTestObject("Object Repository/Page_Swag Labs/button_Open Menu"))
+2022-08-07 11:36:34.595 DEBUG testcase.username_3                      - 22: click(findTestObject("Object Repository/Page_Swag Labs/a_Logout"))
+2022-08-07 11:36:35.119 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/username_3
+
+Test Case-4
+Username: performance_glitch_user
+Password: secret_sauce
+
+Elapsed time: 19.053s
+
+2022-08-07 11:42:58.642 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2022-08-07 11:42:58.647 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/username_4
+2022-08-07 11:42:59.602 DEBUG testcase.username_4                      - 1: openBrowser("")
+2022-08-07 11:43:00.102 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+Aug 07, 2022 11:43:00 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2022-08-07 11:43:00.212 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 27390
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 07, 2022 11:43:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-08-07 11:43:03.026 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b2fcbe551bd2a0e1ead90032859ef7b1
+2022-08-07 11:43:03.048 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 104.0.5112.81
+2022-08-07 11:43:03.049 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2022-08-07 11:43:03.050 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2022-08-07 11:43:03.051 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2022-08-07 11:43:03.082 DEBUG testcase.username_4                      - 2: navigateToUrl("https://www.saucedemo.com/")
+2022-08-07 11:43:03.870 DEBUG testcase.username_4                      - 3: setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "performance_glitch_user")
+2022-08-07 11:43:04.914 DEBUG testcase.username_4                      - 4: setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "ehNzmtMb8aWPFpI5BqBSjQ==")
+2022-08-07 11:43:05.505 DEBUG testcase.username_4                      - 5: sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), Keys.chord(ENTER))
+2022-08-07 11:43:05.997 DEBUG testcase.username_4                      - 6: click(findTestObject("Object Repository/Page_Swag Labs/form_Epic sadface Username and password do _e85878"))
+2022-08-07 11:43:06.552 DEBUG testcase.username_4                      - 7: setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA==")
+2022-08-07 11:43:07.069 DEBUG testcase.username_4                      - 8: click(findTestObject("Object Repository/Page_Swag Labs/input_Epic sadface Username and password do_49e5e9"))
+2022-08-07 11:43:12.596 DEBUG testcase.username_4                      - 9: click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart"))
+2022-08-07 11:43:13.046 DEBUG testcase.username_4                      - 10: click(findTestObject("Object Repository/Page_Swag Labs/a_1"))
+2022-08-07 11:43:13.602 DEBUG testcase.username_4                      - 11: click(findTestObject("Object Repository/Page_Swag Labs/button_Checkout"))
+2022-08-07 11:43:14.135 DEBUG testcase.username_4                      - 12: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName"), "Faisal")
+2022-08-07 11:43:14.987 DEBUG testcase.username_4                      - 13: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName"), "Ramadhan")
+2022-08-07 11:43:15.852 DEBUG testcase.username_4                      - 14: setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode"), "15156")
+2022-08-07 11:43:16.699 DEBUG testcase.username_4                      - 15: click(findTestObject("Object Repository/Page_Swag Labs/input_Cancel_continue"))
+2022-08-07 11:43:17.250 DEBUG testcase.username_4                      - 16: click(findTestObject("Object Repository/Page_Swag Labs/button_Finish"))
+2022-08-07 11:43:17.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/username_4
