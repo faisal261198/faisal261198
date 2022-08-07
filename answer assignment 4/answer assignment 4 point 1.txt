@@ -1,0 +1,10 @@
+
+How to query for a list of name and employee salary with position staff and salary
+below 5000?
+
+Answer:
+
+SELECT de_name, dge_salary
+FROM tabel data_employee, Table data_grade_employee
+WHERE dge_salary<5000 
+AND dge_de_id IN (1, 6);
